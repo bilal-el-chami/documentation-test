@@ -4,10 +4,10 @@ import org.junit.Test;
 public class MyTest {
 	@Test
 	public void myFirstTest() {
-		assertEquals("evaluate", 3 + 3 , 6);
+		assertEquals("evaluate 3 + 3", 3 + 3 , 6);
 	}
 	@Test
 	public void mySecondTest() {
-		assertEquals("evaluate", 3 + 3 , 5);
+		assertEquals("evaluate 3 + 2", 3 + 2 , 5);
 	}
 }
